@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35619" started-at="2020-08-26T17:06:31 IST" finished-at="2020-08-26T17:07:07 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="TestHdfcLenderPage.testHdfcform(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestClasses.TestHdfcLenderPage@1f554b06]" name="testHdfcform" class="TestClasses.TestHdfcLenderPage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="35619" started-at="2020-08-26T17:06:31 IST" finished-at="2020-08-26T17:07:07 IST">
+      <class name="TestClasses.TestHdfcLenderPage">
+        <test-method status="PASS" signature="IntilizeBrowser()[pri:0, instance:TestClasses.TestHdfcLenderPage@1f554b06]" name="IntilizeBrowser" is-config="true" duration-ms="19354" started-at="2020-08-26T17:06:31 IST" finished-at="2020-08-26T17:06:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntilizeBrowser -->
+        <test-method status="PASS" signature="testHdfcform(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestClasses.TestHdfcLenderPage@1f554b06]" name="testHdfcform" duration-ms="9003" started-at="2020-08-26T17:06:51 IST" data-provider="dataBase" finished-at="2020-08-26T17:07:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[248001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Indialends]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHdfcform -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestClasses.TestHdfcLenderPage@1f554b06]" name="tearDown" is-config="true" duration-ms="7202" started-at="2020-08-26T17:07:00 IST" finished-at="2020-08-26T17:07:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClasses.TestHdfcLenderPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
